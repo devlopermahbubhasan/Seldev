@@ -1,0 +1,238 @@
+.sePera{
+    margin-bottom: 3%;
+}
+.underList{
+    font-size: 1.8rem;
+    color: #a8a4a4;
+    margin-top: 4.5rem;
+}
+.abIcon{
+    color: rgba(0, 0, 0, 0.61);
+}
+.bd{
+    border-bottom: 1px solid rgb(186, 186, 189);
+    margin-right: 20px;
+}
+.abBtn{
+    margin-top: 10%;
+}
+.video-text{
+    position: relative;
+}
+.paly-animation-btn {
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	background: #fff;
+	font-size: 60px;
+	text-align: center;
+	line-height: 90px;
+	color: #473288;
+	border-radius: 50%;
+	position: absolute;
+	right: 41%;
+	bottom: 51px;
+}
+.paly-animation-btn::before{
+    content: "";
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #473288;
+    border-radius: 50%;
+    animation: palybtn 1.6s ease-out infinite;
+}
+@keyframes palybtn{
+    0%,30%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .7;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+.grid-six-col {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .grid-four-col {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .serive-icon{
+    width: 16rem !important;
+    margin-top: 3.4rem;
+  }
+  .about-heading{
+    color: #473288;
+  }
+
+  /* leader */
+  .imgw{
+    width: 25%;
+    height: 50%;
+  }
+   .member-image{
+    position: relative;
+}
+.member-image img{
+    width: 70%;
+    height: auto;
+}
+.member-social-profile {
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    left: 0;
+    margin: auto;
+}
+.member-social-profile ul {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.member-social-profile ul li{
+    display: inline-block;
+
+    transition: .5s ease-in-out;
+    transform: translateY(45px);
+    opacity: 0;
+    visibility: hidden;
+}
+.member-image:hover .member-social-profile ul li{
+    opacity:1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.member-image .member-social-profile ul li:nth-child(1){
+    transition-delay: .2s;
+}
+.member-image .member-social-profile ul li:nth-child(2){
+    transition-delay: .3s;
+}
+.member-image .member-social-profile ul li:nth-child(3){
+    transition-delay: .4s;
+}
+.member-image .member-social-profile ul li:nth-child(4){
+    transition-delay: .5s;
+}
+.member-social-profile ul li a {
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background: #fff;
+	border-radius: 50%;
+    line-height: 40px;
+    color: #444;
+    transition: .4s;
+}
+.member-social-profile ul li a:hover{
+    color: #fff;
+    background-color: #473288;
+}
+
+.member-content {
+    margin-top: 28px;
+}
+.member-content h4 {
+    color:  #473288;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.member-content p {
+    color: #666;
+}
+.member-MAr{
+    margin-top: 6.5rem !important;
+}
+.tittel{
+    color: #2e2d2d !important;
+}
+.bTittel{
+    border-bottom: 1px solid #fca80f;
+    width: 20%;
+    margin-bottom: 2.5rem;
+}
+.videoImg{
+    width: 100%;
+    height: auto;
+}
+/* re  */
+@media(max-width: 1000px){
+    .section-services .grid-six-col{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width: 460px){
+    .section-services .grid-six-col{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 745px){
+    .leadr-section .grid-two-col{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media(max-width: 900px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 40%;
+    }
+   
+  }
+  /* 530  */
+  @media(max-width: 530px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 35%;
+    }
+    
+  }
+  /* 400  */
+  @media(max-width: 400px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 25%;
+    }
+  }
+  /* 450  */
+  @media(max-width: 450px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 29%;
+    }
+  }
+  /* 350  */
+  @media(max-width: 350px){
+    .s-top-data{
+      font-size: 2.5rem !important;
+      margin-left: 29%;
+    }
+  }
+  /* 295  */
+  @media(max-width: 295px){
+    .serive-icon{
+        width: 10rem !important;
+        height: auto;
+    }
+  }
+  /* 900  */
+  @media(max-width: 900px){
+    .btn{
+        margin-bottom: 2rem;
+    }
+  }
+  /* 745  */
+  @media(max-width: 745px){
+    .member-image{
+        margin-left: 22%;
+    }
+  }

@@ -1,0 +1,128 @@
+.aimgw{
+    width: 70%;
+    height: auto;
+}
+.common-headinga{
+    margin-top: 2rem;
+    color: var(--heading);
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+.container-fluida{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+.pera-web{
+    
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans";
+    text-transform: uppercase;  
+    margin-bottom: 10%;
+     
+}
+.btnapp{
+    
+    border: 1px solid #fff;
+    padding: 5px 5px;
+    background-color: #473288;
+    border-radius: 20px;
+    color: white;
+}
+/* 630  */
+@media(max-width: 630px){
+    .btnapp{
+        font-size: 12px;
+    }
+  }
+  /* 531  */
+  @media(max-width: 531px){
+    .btnapp{
+        font-size: 10px;
+    }
+  }
+   /* 450  */
+   @media(max-width: 450px){
+    .btnapp{
+        font-size: 8px;
+    }
+  }
+   /* 368  */
+   @media(max-width: 368px){
+    .btnapp{
+     padding: 3px 3px !important;
+        font-size: 7px;
+    }
+  }
+    /* 313  */
+    @media(max-width: 313px){
+        .btnapp{
+         padding: 5px 1px !important;
+            font-size: 7px;
+          
+        }
+      }
+      @media(max-width: 299px){
+        .btnapp{
+         padding: 5px 0px !important;
+            font-size: 7px;
+        }
+      }
+      @media(max-width: 292px){
+        .btnapp{
+         display: flex;
+         font-size: 15px;
+         padding: 10px 10px !important;
+         justify-content: center;
+        }
+      }
+
+      @media(max-width: 1326px){
+        .btnapp{
+         
+         font-size: 12px;
+         padding: 5px 5px !important;
+    
+        }
+      }
+      @media(max-width: 1130px){
+        .btnapp{
+         
+         font-size: 10px;
+         padding: 5px 5px !important;
+    
+        }
+      }
+      @media(max-width: 967px){
+        .btnapp{
+         
+         font-size: 8px;
+         padding: 5px 3px !important;
+    
+        }
+      }
+      @media(max-width: 350px){
+        .btnapp{
+         
+         font-size: 8px;
+         padding: 5px 1px !important;
+    
+        }
+      }
+      @media(max-width: 350px){
+        .btnapp{
+            display: flex;
+            font-size: 15px;
+            padding: 10px 10px !important;
+            justify-content: center;
+           }
+      }
+      @media(max-width: 1500px){
+        .container-fluida{
+          max-width: 85%;
+          margin: 0 auto;
+        }
+      }

@@ -1,0 +1,110 @@
+.btns{
+  width: 13%;
+  height: 45%;
+  background-color: #7b66ef;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 70%;
+  padding: 11px 20px;
+ }
+.faq-heading {
+    font-weight: 700;
+    font-size: 4.4rem;
+  }
+  .btn:hover {
+    box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+    color: rgb(255 255 255);
+  }
+  .faqPera{
+    font-size: 1.5rem;
+    margin-top: 5%;
+  }
+  @media(max-width: 1500px){
+    .btns {
+      width: 17%;
+      height: 50%;
+    }
+  }
+  @media(max-width: 800px){
+    .btns {
+      width: 31%;
+    height: 49%;
+    }
+  }
+  @media(max-width: 400px){
+    .btns {
+      width: 45%;
+    height: 31%;
+    }
+  }
+  @media(max-width: 515px){
+    .btns {
+      width: 42%;
+    height: 47%;
+    }
+  }
+  @media(max-width: 400px){
+    .btns {
+      width: 26%;
+      height: 89%;
+    }
+  }
+  /* 900  */
+  @media(max-width: 900px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 40%;
+    }
+    .about-heading{
+      margin-left: 34%;
+      text-align: center;
+    }
+  }
+  /* 530  */
+  @media(max-width: 530px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 35%;
+    }
+    .about-heading{
+      margin-left: 24%;
+      text-align: center;
+    }
+  }
+  /* 400  */
+  @media(max-width: 400px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 25%;
+    }
+    .about-heading{
+      margin-left: 14%;
+      text-align: center;
+    }
+  }
+  /* 450  */
+  @media(max-width: 450px){
+    .s-top-data{
+      font-size: 3.5rem !important;
+      margin-left: 29%;
+    }
+    .about-heading{
+      margin-left: 22%;
+      text-align: center;
+    }
+  }
+  /* 350  */
+  @media(max-width: 350px){
+    .s-top-data{
+      font-size: 2.5rem !important;
+      margin-left: 29%;
+    }
+    .about-heading{
+      margin-left: 22%;
+      text-align: center;
+      font-size: 3rem !important;
+    }
+  }
+  

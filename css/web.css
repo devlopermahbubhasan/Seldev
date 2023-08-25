@@ -1,0 +1,105 @@
+.web-hedding{
+    color: rgb(71, 50, 136);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 90px;
+    margin-top: 5%;
+}
+.pera-web{
+    line-height: 37px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    
+}
+.btnWeb{
+    background-color: rgba(123, 102, 239, 0.75);
+    font-family: Roboto;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 17px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    padding: 12px 35px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    margin-top: 5%;
+}
+.btnWeb:hover{
+    background-color: rgb(90, 73, 187);
+}
+.wimgw{
+    width: 80%;
+    height: auto;
+}
+.common-headingw{
+        margin-top: 2rem;
+        color: var(--heading);
+        font-size: 1.5rem;
+        line-height: 3rem;
+        font-weight: 500;
+}
+.container-fluidw{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+.sectionsw{
+    padding: 0rem ;
+}
+@media(max-width: 1500px){
+    .container-fluidw{
+      max-width: 85%;
+      margin: 0 auto;
+    }
+  }
+
+  /* 500  */
+  @media(max-width: 600px){
+    .grid-two-col {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+  /* 600  */
+@media(max-width: 600px){
+    .s-top-data{
+      font-size: 3rem !important;
+      margin-left: 30%;
+    }
+    .common-headingw{
+      text-align: center;
+    }
+    .wimgw{
+      margin-left: 10%;
+    }
+    
+  }
+  /* 550  */
+  @media(max-width: 550px){
+    .s-top-data{
+      font-size: 3rem !important;
+      margin-left: 20%;
+    } 
+  }
+  @media(max-width: 400px){
+    .s-top-data{
+      font-size: 3rem !important;
+      margin-left: 10%;
+    } 
+  }
+  @media(max-width: 320px){
+    .s-top-data{
+      font-size: 2.5rem !important;
+      margin-left: 10%;
+    } 
+  }
+  @media(max-width: 280px){
+    .s-top-data{
+      font-size: 1.8rem !important;
+      margin-left: 10%;
+    } 
+  }
